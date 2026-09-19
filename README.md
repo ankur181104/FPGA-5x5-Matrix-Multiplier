@@ -76,7 +76,7 @@ A simple full adder that will add two 2-bits number producing 1 carry and 1 sum 
 [tb_full_adder.v](Verilog_files/Testbench_codes/tb_full_adder.v)
 
 ### Schematic :
-![Full Adder](Schematics/Full_Adder.jpg)
+![Full Adder](Schematics/Full_Adder.JPG)
 
 ### Synthesized Schematic :
 ![Full Adder_Synth](Synthesized_Schematics/Full_Adder_Synth.JPG)
