@@ -13,7 +13,7 @@ This project explores the implementation of matrix multiplication using structur
 |Family| Zynq-7000 SoC (XC7Z020) |
 |Package|	CLG484 (484-ball BGA) |
 |Speed Grade|	-1 (standard) |
-|Board| ZedBoard (Avnet/Digilent) |
+|Board| ZedBoard |
 
 # Architecture
 
@@ -35,11 +35,22 @@ The lower-level arithmetic blocks are used as building blocks for higher-level m
 
 ## Half Adder
 A simple half adder that will add two bits producing 1 carry and 1 sum bit.
-
+### Architecture
 |Parameter|Value|
 |---|---|
 |Inputs| a,b |
 |Outputs| carry,sum |
 |I/O count| 2:2 |
+### Schematic
+![Half Adder](Schematics/Half_Adder.jpg)
 
+## Full Adder
+A simple full adder that will add two bits producing 1 carry and 1 sum bit.
+### Architecture
+|Parameter|Value|
+|---|---|
+|Inputs| a,b |
+|Outputs| carry,sum |
+|I/O count| 2:2 |
+### Schematic
 ![Half Adder](Schematics/Half_Adder.jpg)
