@@ -102,7 +102,7 @@ A 4-bit Ripple Carry Adder consists of 4 full adder connected in series that wil
 [full_adder.v](Verilog_files/Module_codes/ripple_carry_adder.v)
 
 ### Testbench Code :
-[tb_full_adder.v](Verilog_files/Testbench_codes/tb_full_adder.v)
+[tb_full_adder.v](Verilog_files/Testbench_codes/tb_ripple_carry_adder.v)
 
 ### Schematic :
 ![Full Adder](Schematics/Full_Adder.JPG)
