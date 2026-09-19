@@ -24,10 +24,10 @@ The arithmetic datapath is constructed progressively:
 flowchart TD
     A[Half Adder] --> B[Full Adder]
     B --> C[Ripple Carry Adder]
-    C --> D[4-bit Multiplier]
-    D --> E[Dot Product]
-    E --> F[Matrix Multiplier]
-    F --> G[Output Matrix]
+    C --> D[16-bit Adder]
+    D --> E[4-bit Multiplier]
+    E --> F[Array Multiplier]
+    F --> G[Matrix Multiplier]
 ```
 The lower-level arithmetic blocks are used as building blocks for higher-level modules.
 
