@@ -43,17 +43,22 @@ A simple half adder that will add two bits producing 1 carry and 1 sum bit.
 |Outputs| carry,sum |
 |I/O count| 2:2 |
 
-### Schematic :
-![Half Adder](Schematics/Half_Adder.jpg)
-
-### Synthesized Schematic :
-![Half Adder_Synth](Synthesized_Schematics/Half_Adder_Synth.jpg)
-
 ### Module Code :
 [half_adder.v](Verilog_files/Module_codes/half_adder.v)
 
 ### Testbench Code :
 [tb_half_adder.v](Verilog_files/Testbench_codes/tb_half_adder.v)
+
+### Schematic :
+![Half Adder](Schematics/Half_Adder.jpg)
+
+### Synthesized Schematic :
+![Half Adder_Synth](Synthesized_Schematics/Half_Adder_Synth.JPG)
+
+### Output :
+![Half Adder_output]()
+
+
 
 
 
