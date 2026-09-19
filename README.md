@@ -58,6 +58,7 @@ A simple half adder that will add two bits producing 1 carry and 1 sum bit.
 ### Output :
 ![Half Adder_output](Outputs/Half_Adder_op.JPG)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Full Adder
 A simple full adder that will add two 2-bits number producing 1 carry and 1 sum bit. It can also take carry from previous adder ie i/p c.
@@ -85,5 +86,30 @@ A simple full adder that will add two 2-bits number producing 1 carry and 1 sum 
 ### Output :
 ![Full Adder_output](Outputs/Full_Adder_op.JPG)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## 4-bit Ripple Carry Adder
+A 4-bit Ripple Carry Adder consists of 4 full adder connected in series that will add two 4-bits number producing 1 carry and 4 sum bit. It can also take carry from previous adder ie i/p cin.
+
+### Architecture:
+|Parameter|Value|
+|---|---|
+|Inputs| A0,B0,A1,B1,A2,B2,A3,B3,cin |
+|Outputs| S0,S1,S2,S3,c3 |
+|I/O count| 9:5 |
+
+### Module Code :
+[full_adder.v](Verilog_files/Module_codes/ripple_carry_adder.v)
+
+### Testbench Code :
+[tb_full_adder.v](Verilog_files/Testbench_codes/tb_full_adder.v)
+
+### Schematic :
+![Full Adder](Schematics/Full_Adder.JPG)
+
+### Synthesized Schematic :
+![Full Adder_Synth](Synthesized_Schematics/Full_Adder_Synth.JPG)
+
+### Output :
+![Full Adder_output](Outputs/Full_Adder_op.JPG)
 
