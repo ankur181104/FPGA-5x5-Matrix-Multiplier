@@ -61,7 +61,7 @@ A simple half adder that will add two bits producing 1 carry and 1 sum bit.
 
 ## Full Adder
 A simple full adder that will add two 2-bits number producing 1 carry and 1 sum bit. It can also take carry from previous adder ie i/p c.
-
+![Full_Adder_concept](Concepts/Full_Adder_concept.jpg)
 ### Architecture:
 |Parameter|Value|
 |---|---|
