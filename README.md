@@ -108,7 +108,7 @@ A 4-bit Ripple Carry Adder consists of 4 full adder connected in series that wil
 ![Full Adder](Schematics/Full_Adder.JPG)
 
 ### Synthesized Schematic :
-![Full Adder_Synth](Synthesized_Schematics/Full_Adder_Synth.JPG)
+![Full Adder_Synth](Synthesized_Schematics/Ripple_Carry_Adder_Synth.JPG)
 
 ### Output :
 ![Full Adder_output](Outputs/Full_Adder_op.JPG)
