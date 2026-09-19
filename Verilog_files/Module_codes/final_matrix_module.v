@@ -1,0 +1,76 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 03/06/2026 06:37:13 PM
+// Design Name: 
+// Module Name: sipo_to_matrix_module
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module final_matrix_module(
+    input clk,rst,
+    input A,B,
+    output data_out,
+    output wire done
+    );
+    
+    wire [99:0]Q;
+    wire [99:0]P;
+    wire [399:0]R;
+    
+    sipo_hundred_bit SIPO1(
+    clk,rst,
+    A,
+    P
+    );
+    
+    sipo_hundred_bit SIPO2(
+    clk,rst,
+    B,
+    Q
+    );
+    
+    output_matrix OM1(
+     
+    P[99:96], P[95:92], P[91:88], P[87:84], P[83:80],
+    P[79:76], P[75:72], P[71:68], P[67:64], P[63:60],
+    P[59:56], P[55:52], P[51:48], P[47:44], P[43:40],
+    P[39:36], P[35:32], P[31:28], P[27:24], P[23:20],
+    P[19:16], P[15:12], P[11:8],  P[7:4],   P[3:0],
+     
+    Q[99:96], Q[95:92], Q[91:88], Q[87:84], Q[83:80],
+    Q[79:76], Q[75:72], Q[71:68], Q[67:64], Q[63:60],
+    Q[59:56], Q[55:52], Q[51:48], Q[47:44], Q[43:40],
+    Q[39:36], Q[35:32], Q[31:28], Q[27:24], Q[23:20],
+    Q[19:16], Q[15:12], Q[11:8],  Q[7:4],   Q[3:0],
+     
+    R[399:384], R[383:368], R[367:352], R[351:336], R[335:320],
+    R[319:304], R[303:288], R[287:272], R[271:256], R[255:240],
+    R[239:224], R[223:208], R[207:192], R[191:176], R[175:160],
+    R[159:144], R[143:128], R[127:112], R[111:96],  R[95:80],
+    R[79:64],   R[63:48],   R[47:32],   R[31:16],   R[15:0]
+
+    );
+    
+    
+    piso_four_hundred_bits PISO1(
+    clk,rst,
+    R,
+    data_out,
+    done
+    );
+    
+endmodule
