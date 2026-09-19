@@ -50,7 +50,7 @@ A simple half adder that will add two bits producing 1 carry and 1 sum bit.
 [tb_half_adder.v](Verilog_files/Testbench_codes/tb_half_adder.v)
 
 ### Schematic :
-![Half Adder](Schematics/Half_Adder.jpg)
+![Half Adder](Schematics/half_adder.jpg)
 
 ### Synthesized Schematic :
 ![Half Adder_Synth](Synthesized_Schematics/Half_Adder_Synth.JPG)
