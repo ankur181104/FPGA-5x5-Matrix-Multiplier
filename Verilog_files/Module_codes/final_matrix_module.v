@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+
 module final_matrix_module(
     input clk,rst,
     input A,B,
