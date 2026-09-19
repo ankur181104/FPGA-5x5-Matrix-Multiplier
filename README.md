@@ -43,14 +43,6 @@ A simple half adder that will add two bits producing 1 carry and 1 sum bit.
 |I/O count| 2:2 |
 ### Schematic
 ![Half Adder](Schematics/Half_Adder.jpg)
+[half_adder.v](Verilog_files/half_adder.v)
 
-## Full Adder
-A simple full adder that will add two bits producing 1 carry and 1 sum bit.
-### Architecture
-|Parameter|Value|
-|---|---|
-|Inputs| a,b |
-|Outputs| carry,sum |
-|I/O count| 2:2 |
-### Schematic
-![Half Adder](Schematics/Half_Adder.jpg)
+
