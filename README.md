@@ -42,4 +42,4 @@ A simple half adder that will add two bits producing 1 carry and 1 sum bit.
 |Outputs| carry,sum |
 |I/O count| 2:2 |
 
-![Half Adder](schematics/Half_Adder.jpg)
+![Half Adder](Schematics/Half_Adder.jpg)
