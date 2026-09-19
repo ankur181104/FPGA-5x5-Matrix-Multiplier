@@ -35,14 +35,20 @@ The lower-level arithmetic blocks are used as building blocks for higher-level m
 
 ## Half Adder
 A simple half adder that will add two bits producing 1 carry and 1 sum bit.
-### Architecture
+
+### Architecture:
 |Parameter|Value|
 |---|---|
 |Inputs| a,b |
 |Outputs| carry,sum |
 |I/O count| 2:2 |
-### Schematic
+
+### Schematic :
 ![Half Adder](Schematics/Half_Adder.jpg)
+
+### Module Code :
 [half_adder.v](Verilog_files/half_adder.v)
+
+### Testbench Code :
 
 
