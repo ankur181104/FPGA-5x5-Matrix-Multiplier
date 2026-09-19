@@ -50,7 +50,7 @@ A simple half adder that will add two bits producing 1 carry and 1 sum bit.
 [tb_half_adder.v](Verilog_files/Testbench_codes/tb_half_adder.v)
 
 ### Schematic :
-![Half Adder](Schematics/half_adder.jpg)
+<img src="Schematics/half_adder.jpg" width="600">
 
 ### Synthesized Schematic :
 ![Half Adder_Synth](Synthesized_Schematics/Half_Adder_Synth.JPG)
@@ -61,7 +61,8 @@ A simple half adder that will add two bits producing 1 carry and 1 sum bit.
 
 ## Full Adder
 A simple full adder that will add two 2-bits number producing 1 carry and 1 sum bit. It can also take carry from previous adder ie i/p c.
-![Full_Adder_concept](Concepts/Full_Adder_concept.jpg)
+<img src="Concepts/Full_Adder_concept.jpg" width="550">
+
 ### Architecture:
 |Parameter|Value|
 |---|---|
