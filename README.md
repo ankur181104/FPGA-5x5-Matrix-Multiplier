@@ -78,13 +78,13 @@ A simple full adder that will add two 2-bits number producing 1 carry and 1 sum 
 [tb_full_adder.v](Verilog_files/Testbench_codes/tb_full_adder.v)
 
 ### Schematic :
-![Full Adder](Schematics/Full_Adder.JPG)
+![Ripple_Carry Adder](Schematics/4-bit_Ripple_Carry_Adder.JPG)
 
 ### Synthesized Schematic :
-![Full Adder_Synth](Synthesized_Schematics/Full_Adder_Synth.JPG)
+![Ripple_Carry Adder_Synth](Synthesized_Schematics/Full_Adder_Synth.JPG)
 
 ### Output :
-![Full Adder_output](Outputs/Full_Adder_op.JPG)
+![Ripple_Carry Adder_output](Outputs/Full_Adder_op.JPG)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
