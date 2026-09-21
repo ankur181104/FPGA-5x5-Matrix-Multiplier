@@ -125,17 +125,17 @@ A 8-bit Ripple Carry Adder consists of 2 ripple carry adder connected in series 
 |I/O count| 17:9 |
 
 ### Module Code :
-[ripple_carry_adder.v](Verilog_files/Module_codes/eight_bit_adder.v)
+[eight_bit_adder.v](Verilog_files/Module_codes/eight_bit_adder.v)
 
 ### Testbench Code :
-[tb_ripple_carry_adder.v](Verilog_files/Testbench_codes/tb_eight_bit_adder.v)
+[tb_eight_bit_adder.v](Verilog_files/Testbench_codes/tb_eight_bit_adder.v)
 
 ### Schematic :
-![Ripple_Carry Adder](Schematics/4-bit_Ripple_Carry_Adder.JPG)
+![eight_bit_adder](Schematics/8-bit_Adder.JPG)
 
 ### Synthesized Schematic :
-![Ripple_Carry Adder_Synth](Synthesized_Schematics/Ripple_Carry_Adder_Synth.JPG)
+![eight_bit_adder_Synth](Synthesized_Schematics/8-bit_Adder_Synth.JPG)
 
 ### Output :
-![Ripple_Carry Adder_output](Outputs/Ripple_Carry_Adder_op.JPG)
+![eight_bit_adder_output](Outputs/8-bit_Adder_op.JPG)
 
