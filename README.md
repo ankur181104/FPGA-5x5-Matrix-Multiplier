@@ -113,3 +113,29 @@ A 4-bit Ripple Carry Adder consists of 4 full adder connected in series that wil
 ### Output :
 ![Ripple_Carry Adder_output](Outputs/Ripple_Carry_Adder_op.JPG)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 8-bit Adder
+A 8-bit Ripple Carry Adder consists of 2 ripple carry adder connected in series that will add two 8-bits number producing 1 carry and 8 sum bit. 
+### Architecture:
+|Parameter|Value|
+|---|---|
+|Inputs| A0,A1,A2,A3,A4,A5,A6,A7,B0,B1,B2,B3,B4,B5,B6,B7,cin|
+|Outputs| S0,S1,S2,S3,S4,S5,S6,S7,C7 |
+|I/O count| 17:9 |
+
+### Module Code :
+[ripple_carry_adder.v](Verilog_files/Module_codes/eight_bit_adder.v)
+
+### Testbench Code :
+[tb_ripple_carry_adder.v](Verilog_files/Testbench_codes/tb_eight_bit_adder.v)
+
+### Schematic :
+![Ripple_Carry Adder](Schematics/4-bit_Ripple_Carry_Adder.JPG)
+
+### Synthesized Schematic :
+![Ripple_Carry Adder_Synth](Synthesized_Schematics/Ripple_Carry_Adder_Synth.JPG)
+
+### Output :
+![Ripple_Carry Adder_output](Outputs/Ripple_Carry_Adder_op.JPG)
+
